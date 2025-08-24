@@ -60,6 +60,12 @@ dependencies {
     implementation(libs.firebase.messaging)
     implementation(libs.firebase.firestore)
 
+    // Navigation
+    implementation(libs.androidx.navigation.compose)
+
+    // Coroutines
+    implementation(libs.kotlinx.coroutines.android)
+
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
